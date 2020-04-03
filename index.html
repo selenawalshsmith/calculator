@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8"/>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="app.js"></script>
+  <body>
+    <div class="container">
+        <div id="calc-container">
+          <br>
+          <br>
+          <div class="answer-container">
+            <div id="answer-container">
+              <label id="answer-display">Answer</label>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div id="calc-buttons" class="btn-grid">
+            <button class="btn" id="=" onClick="compute()">=</button>
+            <button class="btn" id="-" onClick="AddtoEquation(this.id)">-</button>
+            <button class="btn" id="+" onClick="AddtoEquation(this.id)">+</button>
+            <button class="btn" id="*" onClick="AddtoEquation(this.id)">x</button>
+            <button class="btn" id="/" onClick="AddtoEquation(this.id)">/</button>
+            <button class="btn" id="0" onClick="AddtoEquation(this.id)">0</button>
+            <button class="btn" id="1" onClick="AddtoEquation(this.id)">1</button>
+            <button class="btn" id="2" onClick="AddtoEquation(this.id)">2</button>
+            <button class="btn" id="3" onClick="AddtoEquation(this.id)">3</button>
+            <button class="btn" id="4" onClick="AddtoEquation(this.id)">4</button>
+            <button class="btn" id="5" onClick="AddtoEquation(this.id)">5</button>
+            <button class="btn" id="6" onClick="AddtoEquation(this.id)">6</button>
+            <button class="btn" id="7" onClick="AddtoEquation(this.id)">7</button>
+            <button class="btn" id="8" onClick="AddtoEquation(this.id)">8</button>
+            <button class="btn" id="9" onClick="AddtoEquation(this.id)">9</button>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
